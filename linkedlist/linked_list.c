@@ -38,6 +38,20 @@ void insert_last(int x)
     }
     temp->next=new;
 }
+void insert_middle(int x,int pos)
+{
+    struct node *temp=head,*new;
+    new=(struct node*)malloc(sizeof(struct node));
+    new->data=x;
+    int count=0;
+    while(count<pos-2)
+    {
+        count++;
+        temp=temp->next;
+    }
+    new->next=temp->next;
+    temp->next=new;
+}
 void display()
 {
     struct node *temp=head;
@@ -55,5 +69,7 @@ int main()
     insert_first(40);
     insert_first(50);
     insert_last(100);
+    insert_last(200);
+    insert_middle(500,3);
     display();
 }
