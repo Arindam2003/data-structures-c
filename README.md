@@ -67,7 +67,7 @@ This repository includes solutions to the following DSA problems:
 
 ### Problems Solved
 
-- [1. Linked List_CreateLL,InsertatFirst](./linkedlist/linked_list.c)
+- [1. Linked List_CreateLL,Insert_First,Insert_Last](./linkedlist/linked_list.c)
 
 <!-- ## Stacks
 
