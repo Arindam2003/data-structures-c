@@ -59,20 +59,15 @@ This repository includes solutions to the following DSA problems:
 
 ### Problems Solved
 
-<!-- - [Two Sum](./arrays/two_sum.py) - Find indices of two numbers that add up to a target. -->
-<!-- - [Rotate Array](./arrays/rotate_array.py) - Rotate an array to the right by k steps. -->
-<!-- - [Maximum Subarray](./arrays/maximum_subarray.py) - Find the contiguous subarray with the largest sum. -->
 - [1. Search element using DMA](./array/search_element.c)
 - [2. Find Minimum from an dynamic array](./array/minimum_find.c)
 - [3. Search element in 2D array using DMA](./array/search_elem_2d.c)
 
-<!-- ## Linked Lists
+## Linked Lists
 
 ### Problems Solved
 
-- [Reverse Linked List](./linked_lists/reverse_linked_list.py) - Reverse a singly linked list.
-- [Merge Two Sorted Lists](./linked_lists/merge_two_sorted_lists.py) - Merge two sorted linked lists.
-- [Detect Cycle in Linked List](./linked_lists/detect_cycle.py) - Determine if a linked list has a cycle. -->
+- [1. Linked List_CreateLL,InsertatFirst](./linkedlist/linked_list.c)
 
 <!-- ## Stacks
 
