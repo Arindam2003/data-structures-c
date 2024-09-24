@@ -67,7 +67,7 @@ This repository includes solutions to the following DSA problems:
 
 ### Problems Solved
 
-- [1. Linked List_Insert_First,,Insert_Last,,Insert_middle](./linkedlist/linked_list.c)
+- [1. Linked List_Insert_First , Insert_Last , Insert_middle](./linkedlist/linked_list.c)
 
 <!-- ## Stacks
 
@@ -83,12 +83,12 @@ This repository includes solutions to the following DSA problems:
 - [Implement Queue using Stacks](./queues/implement_queue.py) - Implement a queue using two stacks.
 - [Circular Queue](./queues/circular_queue.py) - Design and implement a circular queue. -->
 
-<!-- ## Trees
+## Trees
 
 ### Problems Solved
 
-- [Binary Tree Inorder Traversal](./trees/inorder_traversal.py) - Traverse a binary tree in inorder.
-- [Lowest Common Ancestor](./trees/lowest_common_ancestor.py) - Find the lowest common ancestor of two nodes in a binary tree. -->
+- [1. Binary Tree Inorder_Traversal , PreOrder_Traversal , PostOrder_Traversal]
+<!-- - [Lowest Common Ancestor](./trees/lowest_common_ancestor.py) - Find the lowest common ancestor of two nodes in a binary tree. -->
 
 <!-- ## Graphs
 
