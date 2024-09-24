@@ -14,18 +14,20 @@ void createTree()
     int j;
     for(i=0,j=1;j<n;i++)
     {   
-        if(tree[2*i+1]!=-1 && j<n)  //!Left Child
+        int lp=(j-1)/2;
+        if(tree[lp]!=-1 && j<n)  //!Left Child
         {
             printf("Enter Left Child of %d: ",tree[i]);
             scanf("%d",&tree[2*i+1]);
-            j++;
         }
-        if(tree[2*i+2]!=-1 && j<n)   //!Right Child
+        j++;
+        int rp=(j-2)/2;
+        if(tree[rp]!=-1 && j<n)   //!Right Child
         {
             printf("Enter Right Child of %d: ",tree[i]);
             scanf("%d",&tree[2*i+2]);
-            j++;
         }
+        j++;
     }
 }
 
