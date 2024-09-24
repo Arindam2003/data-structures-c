@@ -87,7 +87,7 @@ This repository includes solutions to the following DSA problems:
 
 ### Problems Solved
 
-- [1. Binary Tree Inorder_Traversal , PreOrder_Traversal , PostOrder_Traversal]
+- [1. Binary Tree Inorder_Traversal , PreOrder_Traversal , PostOrder_Traversal](./tree/Implmentaion_array.c)
 <!-- - [Lowest Common Ancestor](./trees/lowest_common_ancestor.py) - Find the lowest common ancestor of two nodes in a binary tree. -->
 
 <!-- ## Graphs
