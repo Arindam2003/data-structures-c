@@ -5,7 +5,6 @@ int main()
 {
     // int *p;
     int a1[5],a2[5],s[5];
-    
     a1[0]=0;
     int i;
     printf("Enter First binary numebr: ");

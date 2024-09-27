@@ -62,6 +62,8 @@ This repository includes solutions to the following DSA problems:
 - [1. Search element using DMA](./array/search_element.c)
 - [2. Find Minimum from an dynamic array](./array/minimum_find.c)
 - [3. Search element in 2D array using DMA](./array/search_elem_2d.c)
+- [4. SubArray Find](./array/subarray_find.c)
+- [5. Max_SubArray_Sum](./array/max_subarray_sum.c)
 
 ## Linked Lists
 
