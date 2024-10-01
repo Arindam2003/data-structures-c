@@ -9,6 +9,26 @@ struct node
 
 struct node *head=NULL;
 
+void reverseLL()
+{
+    struct node *prev=NULL,*temp=head,*next;
+    while(temp!=NULL)
+    {
+        next=temp->next;
+        temp->next=prev;
+        prev=temp;
+        temp=next;
+    }
+    temp=prev;
+    while(temp!=NULL)
+    {
+        printf("----> %d",temp->data);
+        temp=temp->next;
+    }
+}
+
+
+
 /*
 void createLL(int data)
 {
@@ -73,7 +93,7 @@ void display()
     struct node *temp=head;
     while(temp!=NULL)
     {
-        printf("->%d",temp->data);
+        printf("----> %d",temp->data);
         temp=temp->next;
     }
 }
@@ -96,4 +116,7 @@ int main()
     insert_middle(400,3);
     insert_middle(900,2);
     display();
+    printf("\n \n");
+    reverseLL();
+    // display();
 }

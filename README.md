@@ -1,7 +1,11 @@
 # data-structures-c
 A collection of data structure implementations in C
 
+<details>
+    <summary>👌Array</summary>
 
+- [1. Minimum Number find](./array/minimum_find.c)
+- [2. Search Element](./array/search_element.c)
 
 
 
