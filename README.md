@@ -19,7 +19,7 @@ A collection of data structure implementations in C
 <details>
     <summary>⭐Linked List</summary>
 
-- [1. Insertion All Position ,Display ,Reverse](./linkedlist/linked_list.c)
+- [1. Singly LL Insertion All Position ,Display ,Reverse](./linkedlist/linked_list.c)
 
 
 
