@@ -1,6 +1,62 @@
 # data-structures-c
 A collection of data structure implementations in C
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- !when req then activate -->
 <!-- # Data Structures and Algorithms Repository -->
 
@@ -45,9 +101,9 @@ This repository includes solutions to the following DSA problems:
 - Algorithms: Sorting, Searching, Dynamic Programming -->
 
 <!-- !when req. then activate -->
-## Table of Contents
+<!-- ## Table of Contents -->
 
-- [Arrays](#arrays)
+<!-- - [Arrays](#arrays) -->
 <!-- - [Linked Lists](#linked-lists)
 - [Stacks](#stacks)
 - [Queues](#queues)
@@ -55,9 +111,9 @@ This repository includes solutions to the following DSA problems:
 - [Graphs](#graphs)
 - [Dynamic Programming](#dynamic-programming) -->
 
-## Arrays
+<!-- ## Arrays -->
 
-### Problems Solved
+<!-- ### Problems Solved
 
 - [1. Search element using DMA](./array/search_element.c)
 - [2. Find Minimum from an dynamic array](./array/minimum_find.c)
@@ -67,9 +123,9 @@ This repository includes solutions to the following DSA problems:
 
 ## Linked Lists
 
-### Problems Solved
+### Problems Solved -->
 
-- [1. Linked List_Insert_First , Insert_Last , Insert_middle](./linkedlist/linked_list.c)
+<!-- - [1. Linked List_Insert_First , Insert_Last , Insert_middle](./linkedlist/linked_list.c) -->
 
 <!-- ## Stacks
 
@@ -85,11 +141,11 @@ This repository includes solutions to the following DSA problems:
 - [Implement Queue using Stacks](./queues/implement_queue.py) - Implement a queue using two stacks.
 - [Circular Queue](./queues/circular_queue.py) - Design and implement a circular queue. -->
 
-## Trees
+<!-- ## Trees
 
 ### Problems Solved
 
-- [1. Binary Tree- CreateTree](./tree/Implmentaion_array.c)
+- [1. Binary Tree- CreateTree](./tree/Implmentaion_array.c) -->
 <!-- - [Lowest Common Ancestor](./trees/lowest_common_ancestor.py) - Find the lowest common ancestor of two nodes in a binary tree. -->
 
 <!-- ## Graphs
@@ -107,9 +163,9 @@ This repository includes solutions to the following DSA problems:
 - [Longest Increasing Subsequence](./dynamic_programming/longest_increasing_subsequence.py) - Find the length of the longest increasing subsequence. -->
 
 
-## Getting Started
+<!-- ## Getting Started -->
 
-To get started with the code, clone the repository:
+<!-- To get started with the code, clone the repository:
 
-```bash
-git clone https://github.com/Arindam2003/data-structures-c.git
+```bash -->
+<!-- # git clone https://github.com/Arindam2003/data-structures-c.git -->
