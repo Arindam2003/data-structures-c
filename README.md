@@ -6,6 +6,15 @@ A collection of data structure implementations in C
 
 - [1. Minimum Number find](./array/minimum_find.c)
 - [2. Search Element](./array/search_element.c)
+- [3. Search in 2D](./array/search_elem_2d.c)
+- [4. SubArray Find](./array/subarray_find.c)
+- [5. Maximum SubArray sum Find](./array/max_subarray_sum.c)
+- [6. Bubble Sort](./array/bubble_sort.c)
+- [7. Selection Sort](./array/selection_sort.c)
+- [8. Linear Search](./array/linear_search.c)
+- [9. Binary Number sum](./array/Binary_sum.c)
+
+</details>
 
 
 
