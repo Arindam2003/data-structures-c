@@ -98,9 +98,6 @@ void display()
     }
 }
 
-
-
-
 int main()
 {
     // createLL(34);
