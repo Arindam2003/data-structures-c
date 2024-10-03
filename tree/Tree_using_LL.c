@@ -6,5 +6,3 @@ struct root{
     int data;
     struct root *right;
 };
-
-void create
