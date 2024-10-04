@@ -29,6 +29,16 @@ void create(int x)
     }
 }
 
+void InsertBeg(int x)
+{
+    struct node *temp=head,*new_node;
+    new_node=(struct node*)malloc(sizeof(struct node));
+    new_node->prev=NULL;
+    new_node->next=temp;
+    new_node->data=x;
+    temp->prev=new_node;
+    head=new_node;
+}
 
 void display()
 {
@@ -40,10 +50,28 @@ void display()
     }
 }
 
+void InsertMiddle(int x,int size)
+{
+    struct node *temp=head,*new_node;
+    new_node=(struct node*)malloc(sizeof(struct node));
+    int count=0;
+    while(count<size-2)
+    {
+        count++;
+        temp=temp->next;
+    }
+    new_node->data=x;
+    new_node->prev=temp;
+    new_node->next=temp->next;
+    temp->next->prev=new_node;
+    temp->next=new_node;
+}
 
 int main()
 {
     create(10);
     create(20);
+    InsertBeg(500);
+    InsertMiddle(1000,3);
     display();
 }

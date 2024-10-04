@@ -20,7 +20,7 @@ A collection of data structure implementations in C
     <summary>⭐Linked List</summary>
 
 - [1. Singly LL Insertion All Position ,Display ,Reverse](./linkedlist/linked_list.c)
-- [2. Doubly LL Create ,](./linkedlist/DoublyLL.c)
+- [2. Doubly LL Create ,Insert First,Insert Middle](./linkedlist/DoublyLL.c)
 
 
 

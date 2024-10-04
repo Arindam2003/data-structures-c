@@ -27,8 +27,6 @@ void reverseLL()
     }
 }
 
-
-
 /*
 void createLL(int data)
 {
