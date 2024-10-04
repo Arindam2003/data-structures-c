@@ -67,11 +67,40 @@ void InsertMiddle(int x,int size)
     temp->next=new_node;
 }
 
+void InsertLast (int x)
+{
+    struct node *temp=head,*new;
+    new=(struct node*)malloc(sizeof(struct node));
+    new->next=NULL;
+    new->data=x;
+    while(temp->next!=NULL)
+    {
+        temp=temp->next;
+    }
+    new->prev=temp;
+    temp->next=new;
+}
+
+void length()
+{
+    struct node *temp=head;
+    int count=0;
+    while(temp!=NULL)
+    {
+        temp=temp->next;
+        count++;
+    }
+    printf("%d",count);
+}
+
 int main()
 {
     create(10);
     create(20);
     InsertBeg(500);
-    InsertMiddle(1000,3);
+    InsertMiddle(1000,2);
+    InsertLast(18);
     display();
+    printf("\n");
+    length();
 }

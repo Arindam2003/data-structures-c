@@ -96,6 +96,18 @@ void display()
     }
 }
 
+void length()
+{
+    struct node *temp=head;
+    int count=0;
+    while(temp!=NULL)
+    {
+        temp=temp->next;
+        count++;
+    }
+    printf("%d",count);
+}
+
 int main()
 {
     // createLL(34);
@@ -112,6 +124,7 @@ int main()
     insert_middle(900,2);
     display();
     printf("\n \n");
-    reverseLL();
+    length();
+    // reverseLL();
     // display();
 }
