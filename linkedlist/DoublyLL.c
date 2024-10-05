@@ -93,6 +93,28 @@ void length()
     printf("%d",count);
 }
 
+void reverse()
+{
+    struct node *current=head,*next_node=NULL,*prev_node=NULL;
+    while(current!=NULL)
+    {
+        next_node=current->next;
+        current->next=current->prev;
+        current->prev=next_node;
+        
+        prev_node=current;
+        current=next_node; //!for move forward
+    }
+    head=prev_node;
+    current=head;
+    while(current!=NULL)
+    {
+        printf("-->%d",current->data);
+        current=current->next;
+    }
+}
+
+
 int main()
 {
     create(10);
@@ -102,5 +124,6 @@ int main()
     InsertLast(18);
     display();
     printf("\n");
-    length();
+    // length();
+    reverse();
 }
