@@ -114,6 +114,14 @@ void reverse()
     }
 }
 
+void deletefirst()
+{
+    struct node *first=head,*second;
+    second=first->next;
+    second->prev=NULL;
+    head=second;
+    free(first);
+}
 
 int main()
 {
@@ -126,4 +134,7 @@ int main()
     printf("\n");
     // length();
     reverse();
+    printf("\n");
+    deletefirst();
+    display();
 }
