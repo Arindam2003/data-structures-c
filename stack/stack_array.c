@@ -46,8 +46,9 @@ void pop()
 
 void peek()
 {
-    printf("peek element is %d\n",s[top]);
+    printf("peek element is => %d\n",s[top]);
 }
+
 int main()
 {
     push(100);
