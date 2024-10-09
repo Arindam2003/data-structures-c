@@ -1,4 +1,17 @@
 #include<stdio.h>
+
+int max(int x,int y)
+{
+    if (x>y)
+    {
+        return x;
+    }
+    else
+    {
+        return y;
+    }
+}
+
 int main()
 {
     int arr[5],i,j,k;
@@ -14,15 +27,7 @@ int main()
         for (j=i;j<5;j++)
         {
             //! printf("(%d,%d)",i,j);
-            for (k=i;k<j;k++)
-            {
-                s=arr[k]+s;
-            }
-            printf("%d ",s);
-            if(s>maxSum)
-            {
-                maxSum=s;
-            }
+            
         }
         printf("\n");
     }
