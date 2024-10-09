@@ -26,8 +26,6 @@ void reverseLL()
         temp=temp->next;
     }
 }
-
-/*
 void createLL(int data)
 {
     struct node *new;
@@ -35,7 +33,7 @@ void createLL(int data)
     new->data=data;
     new->next=NULL;
     head=new;
-}*/
+}
 
 void insert_first(int x)
 {
