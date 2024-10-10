@@ -23,6 +23,18 @@ A collection of data structure implementations in C
 - [2. Doubly LL Create ,Insert First ,Insert Middle ,Insert Last ,Delete First](./linkedlist/DoublyLL.c)
 - [3. SinglyCricularLL create ,Dispaly ](./linkedlist/CircularLL.c)
 
+</details>
+
+<details>
+    <summary>⭐Stack</summary>
+
+- [1. Stack using array](./stack/stack_array.c)
+- [2. Stack Using LinkedList](./stack/Stack_LL.c)
+- [3. 
+
+</details>
+
+
 
 
 
