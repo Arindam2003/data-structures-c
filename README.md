@@ -39,6 +39,7 @@ A collection of data structure implementations in C
 - [1. Static and Global](./recursion/static_global.c)
 - [2. Tail and Head Recursion](./recursion/TailHead.c)
 - [3. Tree Recursion](./recursion/tree_rec.c) 
+- [4. Indirect Recursion](./recursion/indirect_recursion.c)
 
 </details>
 
