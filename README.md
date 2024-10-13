@@ -29,8 +29,16 @@ A collection of data structure implementations in C
     <summary>⭐Stack</summary>
 
 - [1. Stack using array](./stack/stack_array.c)
-- [2. Stack Using LinkedList](./stack/Stack_LL.c)
-- [3. 
+- [2. Stack Using LinkedList](./stack/Stack_LL.c) 
+
+</details>
+
+<details>
+    <summary>⭐Recursion</summary>
+
+- [1. Static and Global](./recursion/static_global.c)
+- [2. Tail and Head Recursion](./recursion/TailHead.c)
+- [3. Tree Recursion](./recursion/tree_rec.c) 
 
 </details>
 
