@@ -43,7 +43,7 @@ A collection of data structure implementations in C
 - [5. Nested Recursion](./recursion/nested_recursion.c)
 - [6. Sum of Natural Number](./recursion/sumNatural.c)
 - [7. Factorial using Recursion](./recursion/factorialN.c)
-- [8. ]
+- [8. Power Using Recursion](./recursion/PowerUsingRecursion.c)
 
 </details>
 
