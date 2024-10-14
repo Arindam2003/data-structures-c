@@ -40,6 +40,10 @@ A collection of data structure implementations in C
 - [2. Tail and Head Recursion](./recursion/TailHead.c)
 - [3. Tree Recursion](./recursion/tree_rec.c) 
 - [4. Indirect Recursion](./recursion/indirect_recursion.c)
+- [5. Nested Recursion](./recursion/nested_recursion.c)
+- [6. Sum of Natural Number](./recursion/sumNatural.c)
+- [7. Factorial using Recursion](./recursion/factorialN.c)
+- [8. ]
 
 </details>
 
