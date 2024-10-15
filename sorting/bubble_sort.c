@@ -7,9 +7,12 @@ void bubble_sort(int arr[],int n)
     {
         for(j=0;j<n-1-i;j++)
         {
-            temp=arr[j];
-            arr[j]=arr[j+1];
-            arr[j+1]=temp;
+            if(arr[j] > arr[j+1])
+            {
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
         }
     }
 }
@@ -31,4 +34,6 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
+    bubble_sort(arr,5);
+    PrintArray(arr,5);
 }
